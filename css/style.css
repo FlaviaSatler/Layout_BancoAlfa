@@ -1,0 +1,412 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/* INTRODUCAO SITE */
+.introducao{
+    width: 100%;
+    height:100vh;
+    background: url(../img/bg-introducao.jpg)no-repeat left;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.introducao figure img{
+    margin: 2vh auto;
+    max-width: 80%;
+    padding-left: 15vh;
+}
+.introducao p{
+    font-size: 1.1em;
+    line-height: 1.4em;
+    font-family: 'Open Sans';
+    color: #0f1a49;
+    font-weight: 400;
+   max-width: 70%;
+    margin-left: 15vh;
+    text-align: justify;
+    padding-left: 2vh;
+}
+.second-img:after{
+    content: '';
+    display: block;
+    margin: 0 0 2vh 0;
+     max-width: 67%;
+    height: 1px;
+    background: #069;
+    padding-left: 2vh;
+    margin-left: 17vh;
+}
+.logomarca{
+    margin-left: 2vh !important;
+}
+/* FILOSOFIA */
+.filosofia{
+    width: 100%;
+    height: auto;
+    background: #090929;
+    padding: 7vh 0;
+    
+}
+.img-filosofia{
+    margin-bottom: 3vh;
+}
+.box-icon h2{
+    color: #ffffff; 
+    font-family: 'Open Sans'; 
+    line-height: 1.4em; 
+    font-size: 1.2em;
+    text-align: center;
+}
+.box-icon figure img{
+    margin: 0 auto;
+    display: block;
+}
+.box-icon figure{
+    z-index: 2 !important;
+    position: relative;
+}
+.box-icon figure:after{
+    content:'';
+    background: #fff;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    top: 8vh;
+    right: -20vh;
+    z-index: -1;
+}
+
+/* BOX ICON 2 */
+.box-icon2 h2{
+    color: #ffffff; 
+    font-family: 'Open Sans'; 
+    line-height: 1.4em; 
+    font-size: 1em;
+    text-align: center;
+}
+.box-icon2 figure img{
+    margin:0 auto;
+    display: block;
+}
+.box-icon2 figure{
+    z-index: 2 !important;
+    position: relative;
+}
+
+
+/* CONSTRUCAO */
+.construcao{
+    width: 100%;
+    height: auto;
+    padding: 7vh 0;
+    background: url(../img/quebra.png)no-repeat center;
+    background-size: cover;
+}
+.box-construcao figure img{
+    max-width: 70%;
+}
+.box-construcao figure:after{
+    content: '';
+    display: block;
+    margin: 2vh 0 2vh 3vh;
+    max-width: 89%;
+    height: 1px;
+    background: #090929;
+}
+.box-construcao p{
+    color: #090929; 
+    font-family: 'Open Sans'; 
+    line-height: 1.4em; 
+    font-size: 16px;
+    max-width: 480px;
+    text-align: justify;
+    padding-left: 3vh;
+    padding-right: 2vh;
+}
+
+
+/* IMG FLUXO */
+.fluxo-img img{
+    display: block;
+    max-width:100%;
+}
+
+
+/* SERVICOS */
+.servicos{
+    width: 100%;
+    height: auto;
+    padding: 16vh 0;
+    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)), url(../img/bg-servico.jpeg)no-repeat center;
+    background-size: cover;
+}
+.servicos figure img{
+    display: block;
+    margin: 0 0 6vh 0;
+    max-width: 100%;
+}
+
+
+/* FOOTER */
+.footer{
+    width: 100%;
+    height: auto;
+    background: url(../img/bg-footer.jpg)no-repeat center;
+    background-size: cover;
+}
+
+/* BOX CASAL */
+.box-casal{
+    margin-top: -3vh;
+}
+.box-casal figure img{
+    max-width: 120%;
+}
+.casal{
+    margin-top: -36px;
+    margin-left: -158px;
+}
+/* BOX FORM */
+.box-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    position: relative;
+}
+.box-form .logo-footer{
+    margin-top: 25vh;
+    margin-bottom: 3vh;
+    margin-left: 44px;
+}
+.box-form img{
+    max-width: 60%;
+    margin: 0 auto;
+    display: block;
+}
+.box-form hr{
+    margin-top: -1vh;
+    border: 0.6px solid #069;
+}
+.pForm{
+    color: #FFF;
+    FONT-SIZE: 15PX;
+}
+/* BTN ABRIR CONTA */
+.btn-abrir{
+    width: 320px;
+    height: 200px;
+    background: url(../img/btn-abra.png)no-repeat;
+    background-size: cover;
+}
+#abrir-conta{
+    padding: 1.5vh 10vh;
+    width: 100%;
+    background: url(../img/bg-botao.jpg)no-repeat center;
+    color: #333;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    outline: none;
+    font-family: Open Sans,sans-serif;
+    letter-spacing: .1em;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 8px;
+    
+}
+
+#cadastro{
+    padding: 1.5vh 10vh;
+    width: 100%;
+    margin-top: -3vh;
+    background: url(../img/bg-botao.jpg)no-repeat center;
+    color: #333;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    outline: none;
+    font-family: Open Sans,sans-serif;
+    letter-spacing: .1em;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+/* BTN FORM */
+.box-form ul{
+    text-align: center;
+    list-style: none;
+    margin-left: 62px;
+}
+.box-form ul li{
+    margin-bottom: 5vh;
+}
+
+
+/* FORMULARIO ABRA CONTA */
+.formulario-abra,.formulario-abra2{
+    width: 39%;
+    height: 500px;
+    padding: 5vh;
+    background: url(../img/bg-form.jpg)no-repeat center;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    display: none;
+    transition: 1s;
+}
+.formulario-abra label,.formulario-abra2 label{
+    display: block;
+    font-family: Open sans,sans-serif;
+    color: #fff;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    font-weight: 300;
+    letter-spacing: .1em;
+}
+.formulario-abra input,.formulario-abra2 input{
+    width: 100%;
+    padding: 1vh;
+    background: transparent;
+    border-top: 1px transparent;
+    border-right: 1px transparent;
+    border-left: 1px transparent;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    color: #fff;
+    font-family: Open Sans,sans-serif;
+}
+.btn-footer{
+    padding: 1.5vh 10vh;
+    margin-top: 3vh;
+    background: url(../img/bg-botao.jpg)no-repeat center;
+    color: #333;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    outline: none;
+    font-family: Open Sans,sans-serif;
+    letter-spacing: .1em;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* CLOSE FORM */
+#close,#close2{
+    color: #fff !important;
+    text-decoration: none;
+    position: absolute;
+    right: 5vh;
+    z-index: 5;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.owl-prev{
+    position: absolute;
+    top: 12vh;
+    font-size: 1.5em !important;
+    left: -2vh;
+}
+
+.owl-next{
+    position: absolute;
+    top: 12vh;
+    right: -15;
+    font-size: 1.5em !important;
+}
+
+/* RESPONSIVO */
+@media (max-width:768px){
+.introducao{
+    background: url(../img/bg-white.jpeg)no-repeat center;
+    background-size: cover;
+}
+.box-icon,.box-icon2{
+    position: relative;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3vh;
+}
+.introducao p {
+    max-width: 91%;
+}
+.box-icon figure,.box-icon2 figure{
+    margin-right: 3vh;
+    margin-bottom: 3vh;
+}
+.box-icon h2,.box-icon2 h2{
+    text-align: left;
+    margin-top: -2vh;
+}
+.box-icon2 h2{
+    width: 100%;
+    text-align: left;
+    color: #ffffff; 
+    font-family: 'Open Sans'; 
+    line-height: 1.4em; 
+    font-size: 16px;
+}
+.box-icon figure:after{
+    content:'';
+    background: #fff;
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    top: 10vh;
+    left: 50%;
+    z-index: -1;
+}
+.box-construcao figure img{
+    max-width: 43vh;
+    margin-left: -3px;
+}
+.box-casal{
+    display: none;
+}
+.footer{
+    height: auto;
+    padding: 7vh 0;
+}
+.box-form .logo-footer{
+    margin-top: 2vh;
+}
+.formulario-abra,.formulario-abra2{
+    width: 100%;
+    height: auto;
+}
+.formulario-abra img,.formulario-abra2 img{
+    max-width: 100%;
+}
+.introducao{
+    height: auto;
+    padding: 11vh 0px;
+}
+.box-sumir{
+    display: none;
+ }
+.box-intro-logo figure img{
+    padding: 0;
+    margin-left: -15px;
+ }
+.box-intro-logo p{
+    margin: 0;
+    padding: 0;
+}
+.second-img:after{
+    width: 100%;
+    margin-left: 0;
+    max-width: 92%;
+}
+.logomarca{
+     margin-left: 0 !important;
+}
+.owl-prev,.owl-next{
+    top: 22vh;
+}
+
+}
